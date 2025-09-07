@@ -16,7 +16,7 @@ export default defineConfig({
     },
   },
   devServer: {
-    proxy: 'https://api.tfdevs.com'
+    proxy: "https://api.tfdevs.com"
     },
-  
+
 })

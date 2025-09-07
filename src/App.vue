@@ -1,6 +1,7 @@
 <template>
 <HeroArea v-if="!remove"></HeroArea>
 <button @click="changeValue">Remove from DOM</button>
+<!-- <CourseSection></CourseSection> -->
 <ServiceSection></ServiceSection>
 <AboutSection></AboutSection>
 <WhySection></WhySection>
@@ -8,6 +9,7 @@
 <ClientSection></ClientSection>
 <InfoSection></InfoSection>
 <FooterSection></FooterSection>
+
 </template>
 
 <script>
@@ -19,6 +21,7 @@ import TeamSection from './components/TeamSection.vue';
 import ClientSection from './components/ClientSection.vue';
 import InfoSection from './components/InfoSection.vue';
 import FooterSection from './components/FooterSection.vue';
+// import CourseSection from './components/CourseSection.vue';
 export default {
   data() {
     return {
@@ -41,6 +44,7 @@ export default {
     ClientSection,
     InfoSection,
     FooterSection,
+    // CourseSection,
   }
 }
 </script>
